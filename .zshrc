@@ -1,1 +1,1 @@
-alias sync-gas='git pull origin main && git pull upstream main -X ours && git add . && git commit -m "Auto sync: $(date +%Y-%m-%d)" && git push origin main'
+alias sync-gas='git pull origin main && git pull upstream main --no-edit -X ours && git add . && git commit -m "Auto sync: $(date +%Y-%m-%d)" && git push origin main'
